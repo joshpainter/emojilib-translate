@@ -22,7 +22,7 @@ emojilib-translate
 
 ## Usage
 
-1. ``npm install joshpainter/emojilib-translate``
+1. ``npm install emojilib-translate``
 2. ``const emojiTranslate = require('emojilib-translate');``
 3. ``const translatedText = emojiTranslate.translate(text);``
 
