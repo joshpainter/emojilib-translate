@@ -11,14 +11,10 @@
     "url": "https://github.com/joshpainter/emojilib-translate.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/joshpainter"
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "Josh Painter",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/joshpainter/emojilib-translate/issues"
-  },
-  "homepage": "https://github.com/joshpainter/emojilib-translate#readme",
   "dependencies": {
     "emojilib": "3.0.x",
     "pluralize": "^8.0.0"
