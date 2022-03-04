@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/joshpainter/emojilib-translate.git"
   },
+  "publishConfig": {
+    "@joshpainter:registry": "https://npm.pkg.github.com"
+  },
   "author": "Josh Painter",
   "license": "Apache-2.0",
   "bugs": {
