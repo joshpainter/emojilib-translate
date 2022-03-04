@@ -1,8 +1,6 @@
 const emojilib = require('emojilib')
 const fsPromises = require('fs').promises
 
-const mods = emojilib.fitzpatrick_scale_modifiers
-
 invert = () => {
   let inverted = {}
   for (let [emoji, keywords] of Object.entries(emojilib)) {
@@ -26,7 +24,8 @@ invertToFile = async (path) => {
   }
 }
 
-module.exports = {
-  invert: invert,
-  invertToFile: invertToFile
+const start = async () => {
+  await invertToFile('./emojis.json');
 }
+
+start();

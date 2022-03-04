@@ -1,26 +1,23 @@
 {
-  "name": "netlify-plugin-emoji-translate",
-  "version": "1.1.7",
-  "description": "Translates a Netlify site to emoji using notwaldorg/emoji-translate",
+  "name": "emojilib-translate",
+  "version": "3.0.5",
+  "description": "Translates text to emoji using notwaldorg/emoji-translate as a data-source. Forked from https://github.com/vbrown608/netlify-plugin-emoji-translate.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "inverter": "node ./cmd/invert.js"
+    "inverter": "node inverter.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbrown608/netlify-plugin-emoji-translate.git"
+    "url": "git+https://github.com/joshpainter/emojilib-translate.git"
   },
-  "author": "Vivian Brown",
-  "license": "ISC",
+  "author": "Josh Painter",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/vbrown608/netlify-plugin-emoji-translate/issues"
+    "url": "https://github.com/joshpainter/emojilib-translate/issues"
   },
-  "homepage": "https://github.com/vbrown608/netlify-plugin-emoji-translate#readme",
+  "homepage": "https://github.com/joshpainter/emojilib-translate#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
     "emojilib": "3.0.x",
-    "globby": "^11.0.0",
     "pluralize": "^8.0.0"
   }
 }
