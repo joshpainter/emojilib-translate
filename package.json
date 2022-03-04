@@ -1,6 +1,6 @@
 {
   "name": "@joshpainter/emojilib-translate",
-  "version": "3.0.5",
+  "version": "1.0.0",
   "description": "Translates text to emoji using notwaldorg/emoji-translate as a data-source. Forked from https://github.com/vbrown608/netlify-plugin-emoji-translate.",
   "main": "index.js",
   "scripts": {
