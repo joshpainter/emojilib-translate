@@ -1,5 +1,5 @@
 {
-  "name": "@joshpainter/emojilib-translate",
+  "name": "emojilib-translate",
   "version": "1.0.0",
   "description": "Translates text to emoji using notwaldorg/emoji-translate as a data-source. Forked from https://github.com/vbrown608/netlify-plugin-emoji-translate.",
   "main": "index.js",
@@ -10,9 +10,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/joshpainter/emojilib-translate.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "author": "Josh Painter",
   "license": "Apache-2.0",
