@@ -4,7 +4,8 @@
   "description": "Translates a Netlify site to emoji using notwaldorg/emoji-translate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inverter": "node ./cmd/invert.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/vbrown608/netlify-plugin-emoji-translate#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "emojilib": "^2.4.0",
+    "emojilib": "3.0.x",
     "globby": "^11.0.0",
     "pluralize": "^8.0.0"
   }

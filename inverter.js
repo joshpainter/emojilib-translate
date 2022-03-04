@@ -5,19 +5,12 @@ const mods = emojilib.fitzpatrick_scale_modifiers
 
 invert = () => {
   let inverted = {}
-  for (let [name, props] of Object.entries(emojilib).lib) {
-    for (const keyword of props.keywords) {
-      let char = props.char
-      if (props.category == "flags" && keyword.length === 2)
-        continue
-      if (props.fitzpatrick_scale && Math.random() > 0.33) {
-        const modifier = mods[Math.floor(Math.random() * mods.length)]
-        char = char + modifier
-      }
+  for (let [emoji, keywords] of Object.entries(emojilib)) {
+    for (const keyword of keywords) {
       if (inverted[keyword]) {
-        inverted[keyword].push(char)
+        inverted[keyword].push(emoji)
       } else {
-        inverted[keyword] = [char]
+        inverted[keyword] = [emoji]
       }
     }
   }
